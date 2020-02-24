@@ -66,6 +66,7 @@ public class Worker extends App {
         .numJobWorkerExecutionThreads(4)
         .defaultJobWorkerName("demo")
         .withProperties(System.getProperties())
+        .usePlaintext()
         .build();
   }
 

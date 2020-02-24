@@ -79,6 +79,7 @@ public class Starter extends App {
         .brokerContactPoint(appCfg.getBrokerUrl())
         .numJobWorkerExecutionThreads(0)
         .withProperties(System.getProperties())
+        .usePlaintext()
         .build();
   }
 
