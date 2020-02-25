@@ -37,7 +37,7 @@ clean-worker:
 
 .PHONY: status
 status:
-	docker-compose exec gateway zbctl status
+	docker-compose exec gateway zbctl status --insecure
 
 .PHONY: logs
 logs:
